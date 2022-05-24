@@ -66,6 +66,7 @@ namespace Liga
             // 
             // txtID
             // 
+            this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(12, 252);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 20);
@@ -206,6 +207,7 @@ namespace Liga
             this.btnUpdate.TabIndex = 19;
             this.btnUpdate.Text = "Izmeni";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -215,6 +217,7 @@ namespace Liga
             this.btnDelete.TabIndex = 20;
             this.btnDelete.Text = "Obrisi";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // button8
             // 
